@@ -1,0 +1,50 @@
+.footer-set1{
+    margin-top: 20vh;
+    width: 86vw;
+    padding-left: 9rem;
+}
+
+.footer-set1 h1{
+    font-size: 3rem;
+    margin-bottom: 2vh;
+}
+
+.footer-set1 p{
+    margin-bottom: 2vh;
+    text-align: justify;
+}
+.footer-set1 h2{
+    margin-bottom: 2vh;
+}
+.footer-set1 h3{
+    margin-bottom: 2vh;
+    margin-top: 4vh;
+}
+
+.footer-set1 ul li{
+    margin: 10px 0;
+}
+
+.footer-set1 ul li i{
+    font-size: 8px;
+}
+
+.footer-set1 h4{
+    margin-bottom: 2vh;
+    margin-top: 8vh;
+    font-size: larger;
+}
+
+@media screen and (max-width:425px){
+    .footer-set1{
+        margin-top: 5vh;
+        width: 93vw;
+        padding-left: 1rem;
+    }
+
+    .footer-set1 .welcome{
+        text-align: center;
+    }
+
+    
+}

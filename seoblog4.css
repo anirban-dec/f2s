@@ -1,0 +1,248 @@
+.background-set{
+    background-image: url(Countries\ Offering\ Citizenship.png);
+    background-blend-mode: darken;
+    background-color: #110646ad;
+    width: 100vw;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.background-set h1{
+    padding-top: 40vh;
+    text-align: center;
+    font-size: 3.5vw;
+    color: white;
+    width: 90vw;
+    padding-left: 6vw;
+}
+
+.intro{
+    font-size: 1px;
+    padding-top: 16vh;
+}
+
+
+.blog-set1{
+    width: 83vw;
+    margin-left: 5vw;
+}
+
+.blog-set1 h2{
+    padding-top: 14vh;
+    padding-bottom: 5vh;
+    font-size: 3vw;
+}
+.blog-set1 p{
+    text-align: justify;
+    font-size: 1.2vw;
+}
+
+.blog-set2{
+    width: 83vw;
+    margin-left: 5vw;
+}
+.blog-set2 h3{
+    padding-top: 12vh;
+    padding-bottom: 3vh;
+    font-size: 1.5vw;
+}
+.blog-set2 p{
+    text-align: justify;
+    font-size: 1.2vw;
+    padding-bottom: 2vh;
+}
+
+.blog-set2 h4{
+    padding-top: 3vh;
+    padding-bottom: 1vh;
+    font-size: 1.3vw;
+}
+
+.blog-set2 ul li{
+    text-align: justify;
+    font-size: 1.2vw;
+    padding-top: 2vh;
+}
+.blog-set2 ul li i{
+    
+    font-size: 8px;
+    
+}
+
+.blog-set2 a{
+    margin-top: 20000vh;
+}
+
+.blog-set2 strong{
+    font-size: 1.5vw;
+    font-weight: 500;
+    font-size: 1.3vw;
+    color: rgb(255, 255, 255);
+    background-color: rgb(6, 50, 100);
+    border-radius: 30px;
+    width: 20vw;
+    height: 7vh;
+    display: block;
+    text-align: center;
+    padding-top: 1vh;
+    margin-top: 3vh;
+    transition: .2s;
+    
+}
+
+.con-para{
+    margin-bottom: 2ch;
+}
+
+.blog-set2 strong:hover{
+    color: rgb(15, 17, 19);
+    background-color: rgb(38, 119, 224);
+}
+.footer img{
+    width: 12rem;
+}
+
+
+@media screen and (max-width:900px) {
+    .blog-set1 p{
+        font-size: 1.6vw;
+    }
+
+    .blog-set2 h3{
+        font-size: 2.5vw;
+    }
+
+    .blog-set2 p{
+        font-size: 1.6vw;
+    }
+    .blog-set2 h4{
+        font-size: 1.7vw;
+    }
+    .blog-set2 ul li{
+        font-size: 1.8vw;
+    }
+    .blog-set2 strong{
+        padding-top:2vh ;
+
+    }
+    
+}
+
+@media screen and (max-width:768px){
+    
+    .blog-set1 p{
+        font-size: 2vw;
+    }
+
+    .blog-set1 h2{
+        padding-top: 8vh;
+    }
+
+    .blog-set2 h3{
+        font-size: 3vw;
+        padding-top: 8vh;
+    }
+
+    .blog-set2 p{
+        font-size: 2vw;
+    }
+    .blog-set2 h4{
+        font-size: 2.4vw;
+        padding-bottom: 2vh;
+    }
+    .blog-set2 ul li{
+        font-size: 2vw;
+    }
+    .blog-set2 strong{
+        padding-top:2vh;
+        font-size: 2vw;
+        width: 32vw;
+        height: 8vh;
+
+    }
+
+}
+@media screen and (max-width:425px){
+
+    .background-set{
+        width: 100vw;
+    }
+    .background-set h1{
+        font-size: 10vw;
+        padding-top:8vh;
+       
+    }
+    
+    .blog-set1 p{
+        font-size: 3.6vw;
+    }
+
+    .blog-set1 h2{
+        font-size: 10vw;
+    }
+
+    .blog-set2 h3{
+        font-size: 5vw;
+        padding-top: 8vh;
+    }
+
+    .blog-set2 p{
+        font-size: 3.6vw;
+    }
+    .blog-set2 h4{
+        font-size: 4vw;
+        padding-bottom: 4vh;
+    }
+    .blog-set2 ul li{
+        font-size: 2vw;
+    }
+    .blog-set2 strong{
+        font-size: 4vw;
+        width: 38vw;
+        height: 6vh;
+        font-weight: 700;
+
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+
+ 
+    .footer .footer-items{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .footer .footer-items li a{
+        font-size: 12px;
+    }
+   
+    .footer-para{
+        height: 17vh;
+    }
+    
+}
+
+@media screen and (max-width:375px) {
+    .blog-heading h1{
+        margin-left: 15vw;
+    }
+    .blog-img{
+        padding-left: 4rem;
+    }
+    .blog-img img {
+        width: 62vw;
+        height: 33vh;
+    }
+    .blog-items{
+        width: 62vw;
+    }
+
+    .footer .navbar-social {
+        padding-left: 1rem;
+    }
+}
+

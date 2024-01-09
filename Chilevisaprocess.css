@@ -1,0 +1,338 @@
+.background-set {
+  background-image: url(chile.png);
+  background-blend-mode: darken;
+  background-color: #110646ad;
+  width: 100%;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.background-set h1 {
+  padding-top: 24vh;
+  text-align: center;
+  font-size: 3.5vw;
+  color: white;
+}
+
+.intro {
+  font-size: 1px;
+  padding-top: 16vh;
+}
+
+.visaguideimg img {
+  margin-top: 4rem;
+  margin-left: 4rem;
+  width: 90%;
+  height: 33rem;
+  border-radius: 10px;
+  box-shadow: 1px 5px 20px rgb(74, 151, 240);
+}
+
+.blog-set1 {
+  width: 83vw;
+  margin-left: 5vw;
+}
+
+.blog-set1 h2 {
+  padding-top: 14vh;
+  padding-bottom: 5vh;
+  font-size: 3vw;
+}
+.blog-set1 p {
+  text-align: justify;
+  font-size: 1.2vw;
+}
+
+.blog-set2 {
+  width: 83vw;
+  margin-left: 5vw;
+}
+.blog-set2 h3 {
+  padding-top: 12vh;
+  padding-bottom: 3vh;
+  font-size: 1.5vw;
+}
+.blog-set2 p {
+  text-align: justify;
+  font-size: 1.2vw;
+  padding-bottom: 2vh;
+}
+.blog-set2 .ofon {
+  font-size: 1.2rem;
+  padding-top: 1.2rem;
+}
+
+.blog-set2 h4 {
+  padding-top: 3vh;
+  padding-bottom: 1vh;
+  font-size: 1.3vw;
+}
+
+.blog-set2 ul li {
+  text-align: justify;
+  font-size: 1.2vw;
+  padding-top: 2vh;
+}
+.blog-set2 ul li i {
+  font-size: 8px;
+}
+
+.blog-set2 a {
+  margin-top: 20000vh;
+}
+
+.blog-set2 strong {
+  font-size: 1.5vw;
+  font-weight: 500;
+  font-size: 1.3vw;
+  color: rgb(255, 255, 255);
+  background-color: rgb(6, 50, 100);
+  border-radius: 30px;
+  width: 20vw;
+  height: 7vh;
+  display: block;
+  text-align: center;
+  padding-top: 1vh;
+  margin-top: 3vh;
+  transition: 0.2s;
+}
+
+.blogparaheading {
+  font-size: 18px;
+}
+
+.tabledata {
+  margin: auto;
+}
+.tabledata tbody {
+  height: 30vh;
+}
+
+.tabledata tbody {
+  text-align: center;
+}
+
+.tabledata tbody td {
+  padding: 2vh;
+}
+
+.con-para {
+  margin-bottom: 2ch;
+}
+
+.blog-set2 strong:hover {
+  color: rgb(15, 17, 19);
+  background-color: rgb(38, 119, 224);
+}
+
+.passimg img {
+  width: 100%;
+}
+.footer img {
+  width: 12rem;
+}
+.footer {
+  margin-top: 3rem;
+}
+
+@media screen and (max-width: 900px) {
+  .blog-set1 p {
+    font-size: 1.6vw;
+  }
+
+  .blog-set2 h3 {
+    font-size: 2.5vw;
+  }
+
+  .blog-set2 p {
+    font-size: 1.6vw;
+  }
+  .blog-set2 h4 {
+    font-size: 1.7vw;
+  }
+  .blog-set2 ul li {
+    font-size: 1.8vw;
+  }
+  .blog-set2 strong {
+    padding-top: 2vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .background-set {
+    height: 49vh;
+    margin-bottom: -3rem;
+  }
+
+  .blog-set1 p {
+    font-size: 2vw;
+    margin-top: 0rem;
+  }
+  .visaguideimg img {
+    width: 86%;
+    height: 24rem;
+  }
+
+  .blog-set1 h2 {
+    padding-top: 8vh;
+  }
+
+  .blog-set2 h3 {
+    font-size: 3vw;
+    padding-top: 8vh;
+  }
+
+  .blog-set2 p {
+    font-size: 2vw;
+  }
+  .blog-set2 h4 {
+    font-size: 2.4vw;
+    padding-bottom: 2vh;
+  }
+  .blog-set2 ul li {
+    font-size: 2vw;
+  }
+  .blog-set2 strong {
+    padding-top: 2vh;
+    font-size: 2vw;
+    width: 32vw;
+    height: 8vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  .background-set {
+    width: 100%;
+  }
+  .background-set h1 {
+    font-size: 2rem;
+  }
+
+  .blog-set1 p {
+    font-size: 16px;
+  }
+  .visaguideimg img {
+    width: 84%;
+    height: 19rem;
+    margin-left: 3rem;
+  }
+
+  .blog-set1 h2 {
+    padding-top: 8vh;
+    font-size: 10vw;
+  }
+
+  .blog-set2 h3 {
+    font-size: 5vw;
+    padding-top: 8vh;
+  }
+
+  .blog-set2 p {
+    font-size: 16px;
+  }
+  .blog-set2 h4 {
+    font-size: 4vw;
+    padding-bottom: 4vh;
+  }
+  .blog-set2 ul li {
+    font-size: 2vw;
+  }
+  .blog-set2 strong {
+    font-size: 4vw;
+    width: 38vw;
+    height: 6vh;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .background-set {
+    width: 100%;
+  }
+  .background-set h1 {
+    font-size: 2rem;
+    padding-top: 8rem;
+  }
+  .visaguideimg img {
+    width: 84%;
+    height: 16rem;
+    margin-left: 2rem;
+  }
+
+  .blog-set1 p {
+    font-size: 16px;
+  }
+
+  .blog-set1 h2 {
+    padding-top: 8vh;
+    font-size: 10vw;
+  }
+
+  .blog-set2 h3 {
+    font-size: 5vw;
+    padding-top: 8vh;
+  }
+
+  .blog-set2 p {
+    font-size: 16px;
+  }
+  .blog-set2 h4 {
+    font-size: 4vw;
+    padding-bottom: 4vh;
+  }
+  .blog-set2 ul li {
+    font-size: 2vw;
+  }
+  .blog-set2 strong {
+    font-size: 4vw;
+    width: 38vw;
+    height: 6vh;
+    font-weight: 700;
+  }
+
+  .footer .footer-items {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .footer .footer-items li a {
+    font-size: 12px;
+  }
+
+  .footer-para {
+    height: 17vh;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .background-set h1 {
+    padding-top: 5rem;
+  }
+  .blog-heading h1 {
+    margin-left: 15vw;
+  }
+  .visaguideimg img {
+    width: 100%;
+    margin: auto;
+    margin-top: 2rem;
+    height: 20rem;
+  }
+  .blog-img {
+    padding-left: 4rem;
+  }
+  .blog-img img {
+    width: 62vw;
+    height: 33vh;
+  }
+  .blog-items {
+    width: 62vw;
+  }
+  .footer {
+    height: 24rem;
+  }
+
+  .footer .navbar-social {
+    padding-left: 1rem;
+  }
+}

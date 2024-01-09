@@ -1,0 +1,1666 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+  height: 100vh;
+  background-color: #ecf9ff;
+}
+
+hr {
+  height: 0.4rem;
+  background-color: #cee8ff;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  line-height: none;
+  text-decoration: none;
+  list-style: none;
+}
+h3 {
+  font-size: 44px;
+  line-height: 55px;
+  color: #121212;
+  font-weight: 600;
+}
+
+h6 {
+  font-size: 20px;
+  line-height: 32px;
+  color: white;
+  margin-top: 16px;
+  font-weight: normal;
+}
+
+.header3 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #675fff;
+  z-index: 999;
+  transition: 0.4s;
+}
+
+.nav2_menu {
+  display: none;
+}
+
+.nav2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem;
+}
+
+.nav2_img {
+  width: 32px;
+  border-radius: 50%;
+}
+
+.nav2_logo {
+  color: #4f47e4;
+  font-weight: 600;
+}
+
+.nav2_list,
+.nav2_link {
+  display: flex;
+}
+/* ============ NAV ============*/
+
+.background-pic {
+  background-image: url("BG1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0rem;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-self: center;
+  margin: 12px 0 0 0;
+  width: 100%;
+  padding: 1rem 0.5rem;
+  background: #cee8ff;
+  transition: all 0.5s ease;
+  position: fixed;
+  top: -2rem;
+  height: 6rem;
+  position: fixed;
+  z-index: 999;
+}
+
+.nav .logo img {
+  width: 10rem;
+}
+
+.nav .navbar-toggler {
+  display: none;
+  border: none;
+  outline: none;
+}
+
+.nav .navbar-toggler .toggler-icon {
+  width: 27px;
+  height: 3px;
+  background-color: white;
+  margin: 5px 0;
+  position: relative;
+  display: block;
+  transition: all 0.3s ease-out 0s;
+}
+
+.nav .menu-bar {
+  width: 43rem;
+}
+
+.nav .menu-bar .menu-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav .menu-bar .menu-items li {
+  margin: 0 15px;
+}
+
+.nav .menu-bar .menu-items li a {
+  color: #000;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.nav .menu-bar .menu-items li a:hover {
+  color: #4f47e4;
+}
+
+.nav .navbar-social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav .navbar-social span {
+  font-size: 18px;
+  font-weight: 600;
+  padding-right: 10px;
+  color: #6c6c6c;
+}
+
+.nav .navbar-social ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav .navbar-social ul li {
+  margin: 0 7px;
+}
+
+.nav .navbar-social ul li a {
+  color: white;
+  font-size: 22px;
+}
+
+.nav .navbar-social ul li a :hover {
+  color: #000000;
+}
+
+/* bbbbbbbbbb */
+
+.footer .navbar-social {
+  display: none;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+}
+
+.footer .navbar-social span {
+  font-size: 18px;
+  font-weight: 600;
+  padding-right: 10px;
+  color: #ffffff;
+  padding-left: 7rem;
+  margin-top: 3rem;
+}
+
+.footer .navbar-social ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  margin-top: 3rem;
+}
+
+.footer .navbar-social ul li {
+  margin: 0 10px;
+}
+
+.footer .navbar-social ul li a {
+  color: white;
+  font-size: 22px;
+}
+
+.footer .navbar-social ul li a :hover {
+  color: #000000;
+}
+
+/* ============ Home ============*/
+.hero {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 7rem;
+  height: 100vh;
+}
+
+.hero-info {
+  margin-top: 7rem;
+}
+.hero-info h1 {
+  width: 40rem;
+  font-size: 3rem;
+  margin-left: 7rem;
+}
+
+.hero-info p {
+  margin: 2rem 0;
+  width: 25rem;
+  font-size: 1.1rem;
+  margin-left: 7rem;
+  line-height: 2rem;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  gap: 0rem 7rem;
+}
+
+.btn button {
+  width: 10rem;
+  font-size: 1rem;
+  height: 2rem;
+  font-weight: 550;
+}
+
+.btn .btn-2 {
+  border-radius: 20px;
+  border-style: none;
+  background-color: #4f47e4;
+  color: white;
+}
+
+.btn .btn-3 {
+  background-color: transparent;
+  border-style: none;
+  cursor: pointer;
+}
+
+.btn .btn-3 i {
+  padding: 0 12px 0 0;
+  font-size: 1.4rem;
+}
+
+.hero-img {
+  width: 80%;
+}
+
+.hero-img img {
+  margin: -2rem 0 0 -2rem;
+  width: 90%;
+  height: 106%;
+}
+
+/* =========== Services ===========*/
+
+.service {
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+  width: 40rem;
+  margin-left: 7rem;
+  padding-top: 4rem;
+}
+.service h2 {
+  font-size: 3rem;
+}
+.service p {
+  font-size: 1.1rem;
+}
+
+.service-set {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin-top: 3rem;
+}
+
+.service-box,
+.service-single-card {
+  height: 400px;
+  max-width: 300px;
+  margin: auto;
+  position: relative;
+}
+.service-box {
+  perspective: 900px;
+}
+
+.service-single-card {
+  text-align: center;
+  transition: all 1s cubic-bezier(0.7, -0.5, 0.3, 1.8);
+  transform-style: preserve-3d;
+}
+
+.service-box:hover .service-single-card {
+  transform: rotateY(180deg);
+}
+
+.service-front,
+.service-back {
+  width: 300px;
+  position: relative;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
+}
+
+.service-front {
+  cursor: pointer;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 20px;
+  background-size: cover;
+}
+
+.service-front1 {
+  background-image: url(Fast\ Immigration.png);
+}
+.service-front2 {
+  background-image: url(Jobassistance.png);
+}
+.service-front3 {
+  background-image: url(Studyabroad.png);
+}
+.service-front4 {
+  background-image: url(travelabroad.png);
+}
+
+.service-back {
+  transform: rotateY(180deg);
+  position: absolute;
+  border-radius: 20px;
+  border: 2px solid black;
+  box-shadow: 1px 1px 10px rgb(41, 39, 39);
+  height: 400px;
+  background: #fff;
+  cursor: pointer;
+}
+.service-content {
+  padding-top: 25%;
+}
+.service-content h2 {
+  font-size: 2rem;
+  margin: auto;
+  width: 90%;
+  font-weight: 600;
+  color: black;
+}
+.service-content p {
+  margin: auto;
+  margin-top: 1rem;
+  width: 80%;
+  color: black;
+}
+.service-content h2:hover {
+  transition: 0.2s;
+  color: blue;
+}
+.service-content p:hover {
+  color: blue;
+  transition: 0.2s;
+}
+/* ============ Visa process ============*/
+
+.visaguide1 {
+  background-image: url(australiaguide.png);
+}
+.visaguide2 {
+  background-image: url(argintinaguide.png);
+}
+.visaguide3 {
+  background-image: url(austriaguide.png);
+}
+.visaguide4 {
+  background-image: url(canadaguide.png);
+}
+
+.readmorevisa {
+  text-align: center;
+  font-size: 1.3rem;
+  margin-top: 2rem;
+}
+.readmorevisa p {
+  color: black;
+  font-weight: 600;
+}
+.readmorevisa p:hover {
+  color: #4f47e4;
+  transition: 0.2s;
+}
+
+/* ============ Testimonial ============*/
+
+.testimonial-section {
+  background-repeat: no-repeat;
+  background-position-y: -1rem;
+  background-position-x: -2rem;
+}
+
+.testimonial .heading {
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+  width: 40rem;
+  font-size: 3rem;
+  margin-left: 7rem;
+  padding-top: 4rem;
+}
+.testimonial p {
+  margin: 0rem 0 2rem 0;
+  width: 40rem;
+  line-height: 2rem;
+  font-size: 1.1rem;
+  margin-left: 7rem;
+}
+
+.card {
+  position: relative;
+  background-color: #f9ffe0;
+  border-radius: 20px;
+  width: 296px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card .card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  position: relative;
+  z-index: 100;
+}
+
+.swiper {
+  width: 60rem;
+  height: 34rem;
+}
+
+section .card .image {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  padding: 3px;
+  background-color: #ffffff;
+  box-shadow: 0px -1px 4px 2px rgba(0, 0, 0, 0.25);
+  margin-top: 4rem;
+}
+
+section .card .image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+
+.swiper-pagination {
+  bottom: 0;
+  position: relative;
+}
+
+.box1 {
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  border-radius: 20px 20px 0 0;
+  background: linear-gradient(
+    106deg,
+    #f3a60f 14.25%,
+    rgba(225, 25, 25, 0) 139%
+  );
+}
+
+.box2 {
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  border-radius: 20px 20px 0 0;
+  background: linear-gradient(
+    106deg,
+    #8a8cff 14.25%,
+    rgba(225, 25, 25, 0) 139%
+  );
+}
+.box3 {
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  border-radius: 20px 20px 0 0;
+  background: linear-gradient(
+    106deg,
+    #4f47e4 14.25%,
+    rgba(225, 25, 25, 0) 139%
+  );
+}
+
+.card .name-profession {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.name-profession .name {
+  font-size: 20px;
+  font-weight: 600;
+  color: #222;
+}
+
+section .card .about {
+  display: flex;
+  text-align: center;
+  color: #444;
+  margin-top: 2rem;
+  font-size: 14px;
+  width: 86%;
+  line-height: 1.9rem;
+}
+
+.info-para {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image-google {
+  width: 4.5rem;
+  align-self: center;
+}
+.info-para p {
+  margin-top: -1rem;
+  align-self: center;
+  font-weight: 600;
+}
+.info-para .stars {
+  width: 10rem;
+  margin-top: -0.5rem;
+}
+.info-para .review {
+  margin-top: -0.1rem;
+}
+
+/* ============ Blogs ============*/
+
+.blogs {
+  margin-top: 4rem;
+}
+
+.blog-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(to left top, #4f47e4, #b8cdfc);
+}
+
+.blogs h2 {
+  width: 40rem;
+  font-size: 3rem;
+  margin-left: 7rem;
+  /* padding-top: 7rem; */
+}
+
+.blogs p {
+  margin: 0rem 0 2rem 0;
+  width: 40rem;
+  line-height: 2rem;
+  font-size: 1.1rem;
+  padding-top: 1.5rem;
+  margin-left: 7rem;
+}
+
+.blog-icon p {
+  text-align: center;
+  margin: 0rem 0 0rem 0;
+  width: 40rem;
+  line-height: 2rem;
+  font-size: 1.1rem;
+  padding-top: 1.5rem;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0 35px;
+}
+
+.cards .img1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+.cards span {
+  width: 18rem;
+  font-size: 13px;
+  text-align: justify;
+}
+.carousel h4 {
+  width: 15rem;
+  padding: 2rem 0;
+}
+
+.carousel .dragging {
+  scroll-behavior: auto;
+  scroll-snap-type: none;
+}
+
+.carousel :where(.cards, .img1) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel.dragging .cards {
+  cursor: grab;
+  user-select: none;
+}
+.carousel .cards {
+  scroll-snap-align: start;
+  background: #fff;
+  border-radius: 8px;
+  height: 100%;
+  display: flex;
+  padding-bottom: 15px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.carousel .no-transition {
+  scroll-behavior: auto;
+}
+
+.wrapper .carousel {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% / 3) - 12px);
+  gap: 16px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  scrollbar-width: 0;
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.blog-icon {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.blog-icon i {
+  text-align: center;
+  background: #fff;
+  height: 50px;
+  font-size: 3rem;
+  width: 50px;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 1rem;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
+  cursor: pointer;
+}
+
+.cards h4 {
+  font-size: 1.5rem;
+}
+
+/* ============ Contact ============*/
+
+.contact-items {
+  display: flex;
+  justify-content: space-evenly;
+  background-image: url("p11.png");
+  background-position-x: center;
+  background-position-y: -40rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contact3 {
+  margin: 6rem 0 0 0;
+  width: 33%;
+  text-align: justify;
+}
+
+.contact3 p {
+  padding-bottom: 3rem;
+  width: 100%;
+  padding-left: 0;
+}
+
+.contact-img img {
+  width: 20vw;
+  height: 70vh;
+}
+
+.contact3 .heading2 {
+  font-size: 2rem;
+  padding-bottom: 3rem;
+  width: 100%;
+}
+
+.contact h3 {
+  width: 33%;
+  font-size: 3rem;
+  margin-left: 7rem;
+  padding-top: 7rem;
+}
+
+.contact p {
+  margin: 0rem 0 2rem 0;
+  width: 40rem;
+  line-height: 2rem;
+  font-size: 1.1rem;
+  padding-top: 1.5rem;
+  margin-left: 7rem;
+}
+
+.contact2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33%;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+  margin: 1.5rem;
+  height: 450px;
+  background-color: #6e70f7;
+  border: 13px solid #4f47e4;
+  color: white;
+}
+
+.form-contact {
+  margin-bottom: 1.5rem;
+}
+.form-contact input,
+textarea {
+  width: 100%;
+  height: 2rem;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.form-contact textarea {
+  width: 100%;
+  height: 5rem;
+}
+
+.form-contact input:focus,
+textarea:focus {
+  border-color: #625bf8;
+  box-shadow: 0 0 0 0.15rem #5c5cf5;
+}
+
+.form-contact label {
+  margin-bottom: 0.25rem;
+  display: inline-block;
+}
+.contact2 .btn-submit2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact2 .btn-submit {
+  cursor: pointer;
+  text-align: center;
+  padding: 8px 25px;
+  border-radius: 12px;
+  border: none;
+  background-color: rgb(222, 222, 255);
+  transition: 0.2s;
+}
+
+.contact2 .btn-submit:hover {
+  background-color: #5c5cf5;
+  color: white;
+}
+
+/* ============ Footer ============*/
+
+.footer {
+  background-color: #675fff;
+}
+.footer img {
+  width: 22rem;
+  margin-left: 3rem;
+}
+.footer .footer-items {
+  display: flex;
+  padding-top: 2rem;
+  justify-content: space-around;
+}
+
+.footer .footer-items li a {
+  color: white;
+  transition: 0.3s;
+}
+
+.footer .footer-items li a:hover {
+  color: white;
+  border-bottom: 1px solid rgb(250, 250, 250);
+}
+
+.footer .footer-para {
+  text-align: center;
+  margin-top: 2rem;
+  color: white;
+}
+
+/*========== Responsive (1200px)=========== */
+
+@media screen and (max-width: 1200px) {
+  .background-pic {
+    background-position-y: 1rem;
+    background-position-x: -30rem;
+    background-size: 105rem;
+  }
+
+  .hero-img img {
+    margin: -2rem 0 0 -5rem;
+    width: 114%;
+    height: 106%;
+  }
+
+  .testimonial-section {
+    height: 128vh;
+  }
+}
+
+/*========== Responsive (1024px)=========== */
+@media screen and (max-width: 1024px) {
+  .background-pic {
+    background-position-y: -4rem;
+    background-position-x: -38rem;
+    background-size: 107rem;
+  }
+  .hero-img img {
+    margin: 7rem 0 0 -15rem;
+    width: 184%;
+    height: 87%;
+  }
+
+  .box-info {
+    margin: auto;
+  }
+
+  .card .card-content {
+    padding: 0;
+  }
+
+  section .card .about {
+    font-weight: bold;
+    width: 23vw;
+  }
+
+  .testimonial-section {
+    height: 111vh;
+  }
+
+  .contact-items {
+    background-position-y: -23rem;
+  }
+
+  .contact-img img {
+    height: 50vh;
+  }
+}
+
+/*========== Responsive (900px)=========== */
+@media screen and (max-width: 900px) {
+  .hero-img img {
+    margin: 10rem 0 0 -16rem;
+    width: 299%;
+    height: 72%;
+  }
+  .hero-info {
+    margin-top: 0rem;
+  }
+
+  .service-box {
+    gap: 1rem;
+  }
+
+  .contact-img img {
+    height: 37vh;
+    width: 22vw;
+    margin-top: 8rem;
+  }
+
+  .swiper {
+    width: 100%;
+  }
+  .blogs {
+    margin-top: 24rem;
+  }
+
+  .cards span {
+    width: 61%;
+    font-size: 13px;
+    text-align: initial;
+  }
+  .service-set {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 3rem;
+  }
+  .service-box,
+  .service-single-card {
+    height: 300px;
+    max-width: 300px;
+    margin: auto;
+    position: relative;
+  }
+  .service-back {
+    height: 300px;
+  }
+  .service-front3,
+  .service-front4 {
+    margin-top: 2rem;
+  }
+  .service-content h2 {
+    font-size: 1.5rem;
+    margin-top: -3rem;
+  }
+  .visaguide3,
+  .visaguide4 {
+    margin-top: 2rem;
+  }
+  .readmorevisa p {
+    margin-top: 5rem;
+  }
+  .contact h3 {
+    width: 36%;
+  }
+  .contact-items {
+    background-position-y: -19rem;
+  }
+}
+
+/*========== Responsive (768px)=========== */
+@media screen and (max-width: 768px) {
+  .nav .navbar-social {
+    display: none;
+  }
+
+  .hero-info h1 {
+    width: 40rem;
+    font-size: 2rem;
+    margin-left: 2rem;
+  }
+
+  .hero-info p {
+    margin-left: 2rem;
+    font-size: 1rem;
+  }
+
+  .hero-img img {
+    margin: 9rem 0 0 -20rem;
+    width: 22rem;
+    height: 72%;
+  }
+
+  .service-info {
+    margin-top: 4rem;
+  }
+
+  .service-info h2 {
+    margin-left: 2rem;
+  }
+  .service-info p {
+    margin-left: 2rem;
+    font-size: 1rem;
+    line-height: normal;
+  }
+
+  .service-box {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .box-info {
+    height: 103%;
+    width: 96%;
+  }
+
+  .box-info img {
+    width: 7rem;
+    margin: 1rem 0 0 7rem;
+  }
+
+  .btn {
+    display: block;
+  }
+
+  .btn .btn-2 {
+    margin-left: 4rem;
+  }
+
+  .swiper {
+    width: 43rem;
+  }
+
+  section .card .about {
+    width: auto;
+  }
+
+  .cards h4 {
+    font-size: 1rem;
+    width: auto;
+  }
+  .testimonial .heading {
+    padding-top: 10rem;
+  }
+
+  .cards span {
+    width: 12rem;
+  }
+
+  .blogs {
+    margin-top: 26rem;
+  }
+  .footer .navbar-social {
+    display: flex;
+  }
+
+  .visa-box {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+  .visa-info img {
+    width: 12rem;
+    margin: 1rem 0 0 1rem;
+  }
+
+  .visa-info .para p {
+    color: #000;
+  }
+  .contact-items {
+    background-position-y: -9rem;
+  }
+  .service {
+    width: 32rem;
+  }
+  .service-back3 {
+    margin: 2rem;
+  }
+  .service-back4 {
+    margin: 2rem;
+  }
+  .contact h3 {
+    width: auto;
+  }
+}
+
+/*========== Responsive (600px)=========== */
+@media screen and (max-width: 600px) {
+  .nav {
+    display: none;
+  }
+  .nav2_menu {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    box-shadow: 0 -1px 12px #5c5cf5;
+    width: 100%;
+    height: 5rem;
+    padding: 0 1rem;
+    display: grid;
+    align-content: center;
+    border-radius: 1.25rem 1.25rem 0 0;
+    transition: 0.4s;
+    z-index: 999;
+  }
+
+  .nav2_list,
+  .nav2_link {
+    justify-content: space-around;
+    font-size: 1.2rem;
+    color: #4f47e4;
+  }
+
+  .nav2_link i {
+    font-size: 2rem;
+  }
+
+  .hero {
+    display: block;
+  }
+
+  .hero-info {
+    margin-top: 0rem;
+  }
+
+  .hero-info h1 {
+    width: auto;
+    font-size: 2.6rem;
+    margin-left: 2rem;
+  }
+  .hero-info p {
+    margin-left: 2rem;
+    font-size: 13px;
+    width: 25rem;
+    margin-top: 1rem;
+  }
+
+  .hero-img {
+    width: 100%;
+  }
+  .hero-img img {
+    width: 57%;
+    margin: -2.9rem;
+    margin-left: 8rem;
+    display: none;
+  }
+
+  .box-info {
+    height: 24rem;
+  }
+
+  .visa-info img {
+    margin: 1rem 0 0 2rem;
+  }
+
+  .para p {
+    color: white;
+  }
+
+  .testimonial .heading {
+    width: auto;
+  }
+
+  .testimonial p {
+    width: auto;
+  }
+  .swiper {
+    width: 34rem;
+    height: 32rem;
+  }
+
+  section .card .about {
+    width: 36vw;
+  }
+
+  .testimonial-section {
+    height: 102vh;
+  }
+
+  .blogs h2 {
+    width: auto;
+  }
+
+  .blogs p {
+    width: auto;
+  }
+  .contact h3 {
+    width: auto;
+  }
+
+  .contact p {
+    width: auto;
+  }
+
+  .wrapper {
+    padding: 0 44px;
+  }
+  .wrapper .carousel {
+    grid-auto-columns: auto;
+    gap: 17px;
+  }
+
+  .contact-items {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-position-y: -2rem;
+  }
+
+  .contact2 {
+    margin-left: -6rem;
+    width: auto;
+  }
+
+  .form-contact {
+    margin: 1rem;
+  }
+
+  .contact3 {
+    width: 103%;
+  }
+
+  .contact3 p {
+    width: 68%;
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  .contact-img {
+    display: none;
+  }
+
+  .readmorevisa p {
+    margin-top: 4rem;
+  }
+
+  .service {
+    width: auto;
+    margin-left: 4rem;
+  }
+
+  .service-front,
+  .service-back {
+    width: 219px;
+  }
+  .service-back3,
+  .service-back4 {
+    margin-top: 2rem;
+  }
+  .service-content h2 {
+    font-size: 1.3rem;
+    margin-top: -3rem;
+  }
+  .service-content p {
+    font-size: 15px;
+  }
+  .footer .footer-para {
+    text-align: center;
+    margin-top: 4rem;
+    color: white;
+  }
+  .footer .footer-items li a {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .nav2_menu {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    box-shadow: 0 -1px 12px #5c5cf5;
+    width: 100%;
+    height: 5rem;
+    padding: 0 1rem;
+    display: grid;
+    align-content: center;
+    border-radius: 1.25rem 1.25rem 0 0;
+    transition: 0.4s;
+    z-index: 999;
+  }
+
+  .nav2_list,
+  .nav2_link {
+    justify-content: space-around;
+    font-size: 1.2rem;
+    color: #4f47e4;
+  }
+  .nav {
+    display: none;
+  }
+
+  .nav2_link i {
+    font-size: 2rem;
+  }
+
+  .background-pic {
+    background-color: #cbebfb;
+    background-position-y: 11rem;
+    background-position-x: -34rem;
+    background-size: 60rem;
+  }
+
+  .hero {
+    height: 105vh;
+  }
+
+  .hero-info {
+    width: 23rem;
+  }
+
+  .hero-info h1 {
+    width: 22rem;
+    margin-left: 2rem;
+    margin-top: -4rem;
+    font-size: 2.4rem;
+  }
+  .hero-info p {
+    width: 20rem;
+    margin-left: 2rem;
+    margin-top: 0rem;
+    font-style: 1rem;
+    line-height: 1.5rem;
+  }
+  .contact3 {
+    width: auto;
+  }
+
+  .btn {
+    display: block;
+  }
+
+  .btn .btn-2 {
+    margin-left: 2rem;
+  }
+
+  .btn .btn-3 a {
+    display: flex;
+    width: 8rem;
+  }
+
+  .hero-img img {
+    margin-left: 0;
+    height: 20.3rem;
+    margin-top: 0rem;
+    width: 22rem;
+    display: block;
+  }
+  .service {
+    width: auto;
+    margin-left: 2rem;
+    margin-top: 5rem;
+  }
+
+  .service-set {
+    grid-template-columns: auto;
+  }
+
+  .swiper {
+    width: 23rem;
+    height: 37rem;
+  }
+
+  section .card .image {
+    height: 7rem;
+    width: 7rem;
+    margin-top: 4rem;
+  }
+
+  .testimonial-section {
+    height: 107vh;
+  }
+  .testimonial .heading {
+    margin-left: 2rem;
+  }
+  .testimonial p {
+    margin-left: 2rem;
+    text-align: center;
+  }
+
+  .blogs {
+    margin-top: 27rem;
+  }
+  .blogs h2 {
+    margin-left: 2rem;
+  }
+  .blogs p {
+    margin-left: 2rem;
+  }
+
+  .contact-items {
+    display: block;
+    background-position-y: 4rem;
+  }
+  .contact h3 {
+    width: 81%;
+    font-size: 3rem;
+    margin-left: 3.4rem;
+    padding-top: 7rem;
+  }
+
+  .contact p {
+    text-align: center;
+    width: 18rem;
+    margin-left: 4rem;
+  }
+
+  .contact2 {
+    width: 20rem;
+    margin-left: 3rem;
+  }
+
+  .contact3 {
+    border: 13px solid white;
+    background: #acacf8;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact3 .heading2 {
+    text-align: center;
+  }
+  .contact3 p {
+    text-align: center;
+  }
+
+  .footer {
+    height: 25rem;
+    background-color: #837cff;
+  }
+
+  .footer .footer-items {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 31px;
+  }
+
+  .footer .navbar-social {
+    margin: -26px 0 0 0;
+  }
+
+  .footer .navbar-social span {
+    padding-left: 5rem;
+  }
+
+  .footer img {
+    width: 12rem;
+    margin-left: 5rem;
+  }
+  .footer .footer-para {
+    margin-top: 4rem;
+  }
+  .service-front,
+  .service-back {
+    width: 300px;
+  }
+  .service-content h2 {
+    font-size: 1.3rem;
+    margin-top: -2rem;
+  }
+  .service-content p {
+    font-size: 15px;
+  }
+  .service-front2 {
+    margin-top: 2rem;
+  }
+  .service-front3 {
+    margin-top: 4rem;
+  }
+  .service-front4 {
+    margin-top: 6rem;
+  }
+
+  .service-back2 {
+    margin-top: 2rem;
+  }
+  .service-back3 {
+    margin-top: 4rem;
+  }
+  .service-back4 {
+    margin-top: 6rem;
+  }
+  .visaguide2 {
+    margin-top: 2rem;
+  }
+  .visaguide3 {
+    margin-top: 4rem;
+  }
+  .visaguide4 {
+    margin-top: 6rem;
+  }
+  .readmorevisa {
+    margin-top: 10rem;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .background-pic {
+    background-color: #cbebfb;
+    background-position-y: 11rem;
+    background-position-x: -38rem;
+    background-size: 60rem;
+  }
+  .testimonial .heading {
+    margin-left: 3rem;
+    font-size: 2rem;
+  }
+  .testimonial-section {
+    height: 107vh;
+  }
+  .testimonial p {
+    margin-left: 1rem;
+    text-align: center;
+  }
+  .hero-info {
+    width: 18rem;
+  }
+  .hero-info h1 {
+    width: 17rem;
+  }
+
+  .hero-info p {
+    width: 17rem;
+    line-height: normal;
+    margin-top: 2rem;
+  }
+  .btn {
+    display: flex;
+    gap: 0 1rem;
+  }
+  .hero-img img {
+    margin-top: -3rem;
+  }
+  .service {
+    margin-top: 22vh;
+  }
+
+  .swiper {
+    width: 21rem;
+  }
+  section .card .image {
+    height: 6rem;
+    width: 6rem;
+    margin-top: 5rem;
+  }
+  section .card .about {
+    width: 9.3rem;
+    font-weight: bold;
+    font-size: 11px;
+  }
+  .card .name-profession {
+    width: 9rem;
+  }
+  .name-profession .name {
+    font-size: 17px;
+  }
+
+  .blogs {
+    margin-top: 25rem;
+  }
+  .blogs .wrapper {
+    padding: 0 23px;
+  }
+  .blogs p {
+    margin-left: auto;
+  }
+
+  .contact h3 {
+    margin-left: 5rem;
+    width: 65%;
+    font-size: 2rem;
+  }
+  .contact p {
+    margin-left: 3rem;
+    width: 17rem;
+  }
+  .contact2 {
+    width: 16rem;
+  }
+  .contact3 {
+    border: 4px solid white;
+  }
+  .footer img {
+    width: 10rem;
+  }
+  .footer .footer-para {
+    margin-top: 1rem;
+    font-size: 14px;
+  }
+  .footer .navbar-social span {
+    padding-left: 3rem;
+  }
+  .service-back3 {
+    margin: 0;
+    margin-top: 4rem;
+  }
+  .service-back4 {
+    margin: 0;
+    margin-top: 6rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .hero-info h1 {
+    width: 17rem;
+  }
+  .hero-img img {
+    margin-left: 0;
+    height: 19.6rem;
+    margin-top: 2rem;
+    width: 19rem;
+  }
+  .service-set {
+    display: grid;
+    grid-template-columns: auto;
+    margin-top: 3rem;
+  }
+  .service-front,
+  .service-back {
+    width: 250px;
+    height: 18rem;
+  }
+  .service-front1 {
+    margin-top: 3rem;
+  }
+  .service-front2 {
+    margin-top: 3rem;
+  }
+  .service-front3 {
+    margin-top: 3rem;
+  }
+  .service-front4 {
+    margin-top: 3rem;
+  }
+  .service-back1 {
+    margin-top: 3rem;
+  }
+  .service-back2 {
+    margin-top: 3rem;
+  }
+  .service-back3 {
+    margin-top: 3rem;
+  }
+  .service-back4 {
+    margin-top: 3rem;
+  }
+  .contact3 p {
+    width: 68%;
+    font-weight: bold;
+    font-size: 12px;
+  }
+}
