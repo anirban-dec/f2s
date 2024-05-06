@@ -1,0 +1,380 @@
+.about-head {
+  padding-top: 10rem;
+  text-align: center;
+  padding-bottom: 5rem;
+  color: red;
+}
+.about-head h1 {
+  font-size: 3em;
+  color: red;
+}
+
+.about-head p {
+  animation: opacity 2s;
+  width: 43rem;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.work-with-us {
+  margin-top: 3em;
+  display: flex;
+  color: white;
+  justify-items: center;
+  justify-content: space-evenly;
+}
+
+.work-with-us-img {
+  display: flex;
+}
+.work-with-us-img .img1 {
+  margin-right: -230px;
+  margin-top: 2rem;
+  width: 18rem;
+  height: 25rem;
+  border-radius: 10px;
+}
+.work-with-us-img .img2 {
+  width: 18rem;
+  height: 25rem;
+  border-radius: 10px;
+  margin-top: 6rem;
+}
+
+.work-with-us-2 {
+  border: none;
+  width: 37%;
+  margin-left: -100px;
+  border-radius: 25px;
+}
+.work-with-us-head {
+  background-color: transparent;
+}
+.work-with-us-info {
+  background-color: transparent;
+}
+.work-with-us-section .work-with-us-head p {
+  font-size: 15px;
+  line-height: 1.5rem;
+  margin-top: 10px;
+  width: 90%;
+}
+.work-with-us-info p {
+  font-size: 15px;
+  line-height: 1.5rem;
+  margin-top: 10px;
+  margin-bottom: 2rem;
+  width: 86%;
+  color: white;
+}
+
+.trust {
+  margin-top: 6rem;
+}
+
+.numbers-head {
+  margin: auto;
+  text-align: center;
+  margin-top: 4rem;
+}
+.numbers-head h2 {
+  font-size: 3em;
+  color: red;
+}
+.numbers-head p {
+  font-size: 16px;
+  margin: 1rem 0 4rem 0;
+  color: white;
+}
+.book-a-call {
+  margin-top: 4rem;
+}
+
+.cnt-img {
+  display: flex;
+  align-items: center;
+}
+.cnt-img .image {
+  font-size: 33px;
+  margin: auto;
+}
+
+.about-cntbtn {
+  margin-top: 0;
+  margin-left: 31%;
+}
+
+.company {
+  padding-top: 7rem;
+}
+
+.service2 {
+  margin-top: -16rem;
+  margin-bottom: 4rem;
+}
+.footer {
+  padding-top: 3rem;
+}
+
+/* --------------------- Counter --------------------- */
+
+section:not(#section_container) {
+  height: 0vh;
+}
+.section-heading {
+  font-size: 2rem;
+}
+.about-container {
+  padding: 2rem 0;
+  background-color: rgb(24, 24, 24);
+}
+.about-counter-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-evenly;
+}
+.about-counter-item {
+  background-color: #302e2e;
+  padding: 3rem 1.5rem;
+  text-align: center;
+  border-radius: 1rem;
+  width: 20rem;
+}
+.about-counter-item:hover {
+  background-color: #940000;
+  transition: 0.2s;
+}
+
+.counter-img {
+  width: 9vw;
+  height: 20vh;
+  filter: drop-shadow(9px 12px 3px black);
+  cursor: pointer;
+}
+
+.counter-img:hover {
+  filter: drop-shadow(2px 4px 6px grey);
+  transition: 0.2s;
+}
+
+.about-counter-item .about-counter {
+  font-size: 3rem;
+  color: white;
+}
+
+.about-counter-items {
+  display: flex;
+  justify-content: center;
+  gap: 0em;
+  text-align: center;
+  align-items: center;
+}
+.about-counter-item h2 {
+  font-size: 25px;
+  width: 19rem;
+  text-align: center;
+  margin: auto;
+  margin-top: -1rem;
+  color: white;
+}
+.about-counter-items span {
+  color: rgb(46, 189, 3);
+  font-size: 3rem;
+  font-weight: 600;
+}
+/* ------------------------ @Media ------------------------ */
+
+@media (max-width: 960px) {
+  .about-counter-grid {
+    justify-content: space-evenly;
+  }
+  .about-counter-item {
+    width: 17rem;
+  }
+  .about-counter-item h2 {
+    width: 242px;
+  }
+}
+@media (max-width: 900px) {
+  .work-with-us-2 {
+    margin-left: -27px;
+  }
+}
+@media (max-width: 810px) {
+  .about-counter-item {
+    width: 15rem;
+  }
+  .about-counter-item h2 {
+    width: 198px;
+    font-size: 17px;
+  }
+  .counter-img {
+    width: 9vw;
+    height: 13vh;
+  }
+}
+@media (max-width: 731px) {
+  .about-counter-item {
+    width: 14rem;
+  }
+  .about-counter-item h2 {
+    width: 166px;
+    font-size: 17px;
+  }
+  .contactusad {
+    background-image: linear-gradient(120deg, red, rgb(255, 5, 59));
+    width: 86vw;
+  }
+}
+@media (max-width: 668px) {
+  .about-counter-item {
+    width: 12rem;
+  }
+  .about-counter-item h2 {
+    width: 151px;
+    font-size: 15px;
+  }
+  .misvis .mission {
+    height: 63vh;
+    width: 34%;
+  }
+  .misvis .vision {
+    height: 63vh;
+    width: 34%;
+  }
+  .misvis .mission p {
+    width: 39vw;
+    margin-left: -1.5em;
+  }
+  .misvis .vision p {
+    width: 39vw;
+    margin-left: -1.5em;
+  }
+}
+@media (max-width: 620px) {
+  .misvis .mission {
+    height: 33vh;
+    width: 45%;
+  }
+  .misvis .mission p {
+    margin-left: 1.5em;
+  }
+  .misvis .vision {
+    height: 33vh;
+    width: 45%;
+  }
+  .misvis .vision p {
+    margin-left: 1.5em;
+  }
+}
+@media (max-width: 580px) {
+  .work-with-us-img {
+    display: flex;
+    justify-content: center;
+  }
+  .work-with-us {
+    display: block;
+  }
+  .work-with-us-2 {
+    margin-left: 25px;
+    width: auto;
+    margin-top: 2em;
+  }
+  .numbers-head h2 {
+    font-size: 25px;
+  }
+  .about-counter-grid {
+    grid-template-columns: auto auto;
+  }
+  .about-counter-item {
+    width: 17em;
+    margin-top: 6px;
+  }
+  .contactusad {
+    width: 94vw;
+  }
+}
+@media (max-width: 520px) {
+  .about-counter-item {
+    width: 14em;
+  }
+  .footer-info {
+    display: inline;
+  }
+  .service-ft {
+    margin-top: 2em;
+  }
+  .links-ft {
+    margin-top: 2em;
+  }
+  .contact-ft {
+    margin-top: 2em;
+  }
+}
+@media (max-width: 425px) {
+  .about-counter-grid {
+    grid-template-columns: auto;
+  }
+  .about-counter-item {
+    width: 14em;
+    height: 17em;
+  }
+  .misvis .mission {
+    height: 40vh;
+  }
+  .misvis .vision {
+    height: 40vh;
+  }
+  .contactusad .contactusp1 {
+    font-size: 15px;
+  }
+  .contactusad .contactusp2 {
+    font-size: 13px;
+  }
+  .contactusad button {
+    margin-left: 11em;
+  }
+  .contactusad {
+    height: 25vh;
+  }
+}
+
+@media (max-width: 390px) {
+  .contactusad {
+    height: 32vh;
+  }
+  .contactusad button {
+    margin-left: 10em;
+  }
+}
+
+@media (max-width: 370px) {
+  .misvis {
+    display: block;
+    margin-left: 5px;
+  }
+  .misvis .mission {
+    width: 99%;
+  }
+  .misvis .mission p {
+    margin-left: 0.5em;
+    width: auto;
+  }
+  .misvis .vision {
+    width: 99%;
+  }
+  .misvis .vision p {
+    margin-left: 0.5em;
+    width: auto;
+  }
+  .misvis .mission {
+    height: 30vh;
+  }
+  .misvis .vision {
+    height: 30vh;
+  }
+}

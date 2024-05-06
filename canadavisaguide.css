@@ -1,0 +1,54 @@
+.canadavisaguide {
+  background-image: url(canadavisabg.png);
+  height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -1em;
+  margin-top: 5.9em;
+}
+.canadavisaguide h1 {
+  color: rgb(255, 255, 255);
+  font-size: 3em;
+  text-align: center;
+  text-shadow: 10px 10px 10px black;
+  padding-top: 2em;
+}
+
+.description {
+  color: white;
+  margin-top: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.visaguidepara2 {
+  margin-top: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.visaguidepara2 h2 {
+  color: red;
+}
+
+.visaguidepara2 p {
+  color: white;
+}
+
+.conclusion {
+  margin-top: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+.conclusion h2 {
+  color: red;
+}
+.conclusion p {
+  color: white;
+}
+
+@media (max-width: 610px) {
+  .canadavisaguide h1 {
+    font-size: 2em;
+  }
+}

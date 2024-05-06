@@ -1,0 +1,223 @@
+.contact-head {
+  padding-top: 10rem;
+  text-align: center;
+}
+
+.contact-info {
+  width: fit-content;
+  padding-left: 3rem;
+}
+.contact-info h1 {
+  font-size: 3em;
+  color: red;
+}
+
+.cnt-icons {
+  margin-top: -4em;
+}
+
+.contact-info p {
+  width: 60%;
+  animation-name: opacity;
+  animation-duration: 2s;
+  text-align: center;
+  margin: auto;
+  margin-top: 1.4rem;
+  font-size: 16px;
+  color: white;
+}
+
+.contactus-page {
+  display: flex;
+  justify-content: space-between;
+  background-image: linear-gradient(141deg, #ff1302, rgb(255, 4, 100));
+  width: 89%;
+  align-items: center;
+  margin: auto;
+  margin-top: 7em;
+  border-radius: 33px;
+  height: 100vh;
+}
+
+.cnt-info {
+  width: 33%;
+  background: #fdfdfd;
+  height: 80vh;
+  margin-left: 3rem;
+  border-radius: 23px;
+}
+
+.cnt-info h2 {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+
+.cnt-info-para {
+  margin-left: 2rem;
+  margin-top: 10px;
+  margin-bottom: 16rem;
+}
+.cnt-info .cnt-icon {
+  margin-left: 2rem;
+  padding-top: 12px;
+}
+
+.cnt-form {
+  margin: auto;
+}
+.cnt-form-flex {
+  display: flex;
+  gap: 12px;
+  padding-bottom: 2rem;
+}
+
+.cnt-form input {
+  background: rgb(255, 255, 255);
+  height: 4rem;
+  border-radius: 9px;
+  border: none;
+  width: 23vw;
+  color: rgb(0, 0, 0);
+  font-size: 1.2rem;
+}
+
+.cnt-form .form-name {
+  padding-bottom: 2rem;
+  margin-top: 2rem;
+  color: white;
+}
+
+.cnt-form .form-name input {
+  width: 100%;
+}
+.cnt-form .form-name p {
+  padding-bottom: 10px;
+}
+.cnt-form-flex p {
+  padding-bottom: 10px;
+  color: white;
+}
+
+.form-message p {
+  padding-bottom: 10px;
+  color: white;
+}
+
+.form-message textarea {
+  border-radius: 12px;
+  background: rgb(255, 255, 255);
+  height: 9rem;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  width: 43vw;
+  font-family: "poppins", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.cnt-form button {
+  margin-top: 10px;
+  padding: 6px 23px;
+  border-radius: 11px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.cnt-form button:hover {
+  background-color: rgb(190, 36, 36);
+  transition: 0.3s ease-in;
+  transform: scale(1.1);
+  color: white;
+}
+
+@media (max-width: 960px) {
+  .cnt-icons {
+    font-size: 15px;
+    margin-top: -9em;
+  }
+}
+@media (max-width: 810px) {
+  .cnt-icons {
+    font-size: 12px;
+    margin-top: -13em;
+  }
+  .cnt-info .cnt-icon {
+    margin-left: 2px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contactus-page {
+    flex-direction: column;
+    height: auto;
+  }
+  .cnt-info {
+    width: 94%;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 2em;
+    height: auto;
+  }
+  .contact-info {
+    padding-left: 0;
+  }
+  .cnt-info-para {
+    margin-top: 10px;
+    margin-bottom: 16rem;
+    text-align: center;
+    margin-left: 0;
+  }
+  .cnt-icons {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2em;
+    margin-left: 2em;
+    margin-bottom: 2em;
+  }
+}
+@media (max-width: 691px) {
+  .cnt-icons {
+    grid-template-columns: auto auto;
+  }
+}
+@media (max-width: 499px) {
+  .footer-info {
+    display: inline;
+  }
+  .service-ft {
+    margin-top: 2em;
+  }
+  .links-ft {
+    margin-top: 2em;
+  }
+  .contact-ft {
+    margin-top: 2em;
+  }
+  .cnt-info .cnt-icon {
+    margin-left: -13px;
+  }
+  .logo-ft img {
+    width: 36vw;
+    margin-top: 2em;
+  }
+  .logo-ft i {
+    font-size: 4vw;
+  }
+  .cnt-form .form-name input {
+    width: 79vw;
+  }
+  .cnt-form-flex {
+    display: block;
+  }
+  .cnt-form input {
+    width: 79vw;
+  }
+  .form-message textarea {
+    width: 79vw;
+  }
+}
+@media (max-width: 465px) {
+  .cnt-icons {
+    grid-template-columns: auto;
+  }
+}

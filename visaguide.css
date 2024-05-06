@@ -1,0 +1,32 @@
+.description {
+  color: white;
+  margin-top: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.visaguidepara2 {
+  margin-top: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.visaguidepara2 h2 {
+  color: red;
+}
+
+.visaguidepara2 p {
+  color: white;
+}
+
+.conclusion {
+  margin-top: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+.conclusion h2 {
+  color: red;
+}
+.conclusion p {
+  color: white;
+}

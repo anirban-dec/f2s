@@ -1,0 +1,36 @@
+.blogset .blog .blogbg img {
+  width: 250px;
+  height: 150px;
+  border-radius: 12px 12px 0 0;
+}
+
+.blogset .blog {
+  background: linear-gradient(red, rgb(255, 0, 76));
+  transition: 0.2s;
+}
+
+.blogset a {
+  text-decoration: none;
+}
+
+.blogset .blog .blog3 p {
+  width: auto;
+  margin: 0;
+  margin-top: 2em;
+  text-align: center;
+  cursor: pointer;
+}
+.blogset .blog .blog3 h2 {
+  width: auto;
+  margin: 0;
+  text-align: center;
+  margin-top: 1em;
+  cursor: pointer;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .blogset .blog .blogbg img {
+    width: 192px;
+  }
+}
