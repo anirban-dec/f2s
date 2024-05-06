@@ -1256,6 +1256,9 @@ i {
   .About {
     margin-top: 9em;
 }
+  .call {
+    font-size: 10px;
+}
   .abouthead p{
     width:100%;
   }
