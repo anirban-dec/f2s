@@ -1276,5 +1276,9 @@ i {
     display: block;
     height: 13vh;
 }
+  .contactusad button {
+    margin-left: 6.8em;
+    margin-top: 1em;
+}
 }
 
