@@ -1256,6 +1256,10 @@ i {
   .About {
     margin-top: 9em;
 }
+  .bg2 img {
+    height: 20vh;
+    width: 19em;
+}
   .firstheading h1 {
     padding-top: 25vh;
     font-size: 38px;
