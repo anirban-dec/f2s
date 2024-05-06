@@ -1256,8 +1256,12 @@ i {
   .About {
     margin-top: 9em;
 }
+  .firstheading h1 {
+    padding-top: 25vh;
+    font-size: 38px;
+}
   .call {
-    font-size: 10px;
+    font-size: 9px;
 }
   
   .bg2 img {
