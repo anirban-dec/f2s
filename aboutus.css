@@ -341,6 +341,10 @@ section:not(#section_container) {
   .contactusad {
     height: 25vh;
   }
+  .counter-img {
+    width: 9vw;
+    height: 7vh;
+}
 }
 
 @media (max-width: 390px) {
