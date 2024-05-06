@@ -834,6 +834,9 @@ i {
   .service-set {
     grid-template-columns: auto auto;
   }
+  .bg{
+    height:89vh;
+  }
 
   .service-front3 {
     margin-top: 2em;
@@ -941,6 +944,11 @@ i {
     height: 32em;
   }
 }
+@media(max-width:738px){
+  .bg{
+    height:93vh;
+  }
+}
 @media (max-width: 678px) {
   .contactusad {
     width: 92vw;
@@ -1043,6 +1051,9 @@ i {
   }
   .nav {
     top: -1em;
+  }
+  .bg{
+    height:92vh;
   }
 
   .bg2 img {
@@ -1181,7 +1192,7 @@ i {
     height: 16vh;
   }
   .bg {
-    height: 90vh;
+    height: 82vh;
   }
 
   .reviewvideos {
