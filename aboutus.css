@@ -382,3 +382,9 @@ section:not(#section_container) {
     height: 30vh;
   }
 }
+
+@media (max-width: 370px) {
+  .contactusad button {
+    margin-left: 6em;
+}
+}
