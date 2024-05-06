@@ -381,6 +381,13 @@ section:not(#section_container) {
   .misvis .vision {
     height: 30vh;
   }
+  .work-with-us-img .img1{
+        width: 14rem;
+    height: 23rem;
+  }
+  .work-with-us-img .img2 {
+    width: 17rem;
+    height: 21rem;}
 }
 
 @media (max-width: 370px) {
